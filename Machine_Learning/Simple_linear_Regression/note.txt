@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/gurdit559/canada-per-capita-income-single-variable-data-set/code
+
+# Task: Read the kaggle notebooks and try to understand the code and the data. Then try to create a linear regression model for the data.
