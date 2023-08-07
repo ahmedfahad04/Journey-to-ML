@@ -1,13 +1,12 @@
 import cv2 as cv
 
-
-def resizeFrame(frame, rate=0.25):
+def resizeFrame(frame, rate=1.5):
     
-    width = int(frame.shape[1]*rate)
-    height = int(frame.shape[0]*rate)
-    
+    width = int(frame.shape[1]/rate)
+    height = int(frame.shape[0]/rate)
+        
     dimension = (width, height)
-    
+        
     return cv.resize(frame, dimension, interpolation=cv.INTER_LINEAR)
 
 path = 'Images/sample2.mp4'
